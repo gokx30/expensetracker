@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  /* Color Palette */
+  --bg-dark: #090d16;
+  --bg-card: rgba(17, 24, 39, 0.6);
+  --bg-card-hover: rgba(31, 41, 55, 0.7);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(99, 102, 241, 0.5);
+  
+  --color-primary: #6366f1;       /* Indigo */
+  --color-primary-glow: rgba(99, 102, 241, 0.2);
+  --color-success: #10b981;       /* Emerald */
+  --color-success-glow: rgba(16, 185, 129, 0.2);
+  --color-danger: #f43f5e;        /* Rose Crimson */
+  --color-danger-glow: rgba(244, 63, 94, 0.2);
+  --color-warning: #f59e0b;       /* Amber */
+  --color-warning-glow: rgba(245, 158, 11, 0.2);
+  --color-info: #06b6d4;          /* Cyan */
+  
+  --color-text: #f3f4f6;          /* Off-white */
+  --color-text-muted: #9ca3af;    /* Slate Muted */
+  --color-text-dark: #111827;     /* Dark Mode text contrast */
+  
+  /* Fonts */
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Glassmorphism & Shadow */
+  --backdrop-blur: blur(16px);
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --neon-shadow: 0 0 15px rgba(99, 102, 241, 0.25);
+  
+  /* Layout */
+  --border-radius-sm: 8px;
+  --border-radius-md: 14px;
+  --border-radius-lg: 20px;
+  
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
